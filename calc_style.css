@@ -1,0 +1,65 @@
+.baza{
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: #DC143C;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 900;
+   }
+   .baza:hover{
+    background: #FF7F50;
+   }
+   .baza:active{
+    filter: brightness(130%);
+   }
+   .baza.b1{
+    background: #F0E68C;
+   }
+   .baza.b2{
+    background: #696969;
+   }
+   .baza.b3{
+    width: 100px;
+   }
+   .rez{
+    width: 232px;
+    height: 60px;
+    margin-bottom: 15px;
+    padding-right: 10px;
+    background: rgb(255, 255, 255);
+    text-align: right;
+    color: #161b22;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; top: 5px; left: 4px;
+    border-radius: 20px;
+    font-weight: lighter;
+   }
+   html {
+    background-image: url(vecjh.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  a{
+    text-decoration:none;
+    color: #FFFFFF;
+  }
+  details{
+    color:#FFFFFF;
+  }
+.center-div
+{
+ margin: 0 auto;
+ width: 100000px;
+}
